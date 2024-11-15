@@ -1,0 +1,33 @@
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #3498db; /* Warna latar belakang biru */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+
+/* Efek Hover pada Button */
+button:hover {
+    background-color: #2980b9; /* Warna biru yang lebih gelap saat hover */
+    transform: translateY(-3px); /* Mengangkat tombol sedikit saat hover */
+}
+
+/* Efek Active pada Button */
+button:active {
+    background-color: #1c6fa5; /* Warna biru lebih gelap saat ditekan */
+    transform: translateY(1px); /* Menurunkan tombol sedikit saat ditekan */
+}
+
+/* Efek Focus pada Button */
+button:focus {
+    outline: none; /* Menghilangkan outline saat fokus */
+    box-shadow: 0 0 0 2px #2980b

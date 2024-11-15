@@ -1,0 +1,53 @@
+/* Reset dasar untuk menghilangkan margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling untuk halaman logout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Kontainer utama untuk pesan logout */
+.logout-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Judul halaman logout */
+.logout-container h1 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Pesan konfirmasi */
+.logout-container p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #7f8c8d;
+}
+
+/* Link kembali ke login */
+.logout-container a {
+    color: #3498db;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.logout-container a:hover {
+    text-decoration: underline;
+}

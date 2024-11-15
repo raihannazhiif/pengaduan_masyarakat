@@ -1,0 +1,103 @@
+/* Reset dasar untuk menghindari margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container untuk semua konten */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul halaman */
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Gaya untuk header tabel */
+th {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: normal;
+}
+
+/* Gaya untuk baris data tabel */
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Menambahkan warna latar belakang saat hover pada baris */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Gaya untuk tombol Edit */
+.btn-edit {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Efek hover pada tombol Edit */
+.btn-edit:hover {
+    background-color: #218838;
+}
+
+a{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+}
+a :hover{
+    background-color: #218838;
+
+}
+
+/* Responsif untuk ukuran layar kecil */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+
